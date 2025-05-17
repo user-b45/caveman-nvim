@@ -1,4 +1,5 @@
 return {
+
   "akinsho/bufferline.nvim",
   event = "VeryLazy",
   dependencies = {
@@ -15,6 +16,7 @@ return {
     { "]b",         "<cmd>BufferLineCycleNext<cr>",            desc = "Next Buffer" },
     { "[B",         "<cmd>BufferLineMovePrev<cr>",             desc = "Move Buffer Prev" },
     { "]B",         "<cmd>BufferLineMoveNext<cr>",             desc = "Move Buffer Next" },
+    { "<leader>bx", "<cmd>BufferLinePickClose<cr>",            desc = "Pick Close" },
   },
   opts = {
     options = {

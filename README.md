@@ -1,4 +1,13 @@
 # kickstart.nvim
+{ "<leader>bd", "<cmd>bdelete<CR>", desc = "Delete Current Buffer" },
+{ "<leader>bD", "<cmd>bdelete!<CR>", desc = "Force Delete Buffer" },
+{
+  "<leader>bx",
+  function()
+    require("bufferline.commands").close()
+  end,
+  desc = "Bufferline Smart Close"
+},
 
 ## Introduction
 

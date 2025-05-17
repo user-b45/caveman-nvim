@@ -25,4 +25,5 @@ return {
     cmd = { "Git", "Gwrite", "Gread", "Gcommit", "Gpush", "Gpull", "Gdiffsplit", "Gblame", "Glog", "Gbrowse" },
   }
 
+
 }
